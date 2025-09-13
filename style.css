@@ -1,0 +1,29 @@
+.logo {
+    max-width: 300px;  /* masaüstü için sınır */
+    width: 60%;        /* mobilde küçülür */
+    height: auto;
+}
+
+/* Butonlar */
+.custom-btn {
+    display: block;
+    width: 80%;         /* ekranın %80'i */
+    max-width: 300px;   /* çok büyümesin */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+    background: none;
+    border: none;
+    text-align: center;
+}
+
+/* Mobil uyumlu font ayarı */
+@media (min-width: 768px) {
+    .custom-btn {
+        font-size: 1.5rem; /* tablet ve üstü */
+    }
+    .logo {
+        width: 40%;        /* daha büyük logo */
+    }
+}
